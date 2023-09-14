@@ -1,8 +1,13 @@
 {
   "author": "OLLO Station",
   "license": "Apache-2.0",
-  "repository": "https://github.com/OllO-Station/web-extension-interface.git",
-  "bugs": "https://github.com/OllO-Station/web-extension-interface.git/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OllO-Station/web-extension-interface.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OllO-Station/web-extension-interface.git/issues"
+  },
   "homepage": "https://github.com/OllO-Station/web-extension-interface.git",
   "engines": {
     "node": ">=16"
@@ -13,7 +18,7 @@
   },
   "typings": "index.d.ts",
   "name": "@nestwallet/web-extension-interface",
-  "version": "4.0.1",
+  "version": "1.2.0",
   "dependencies": {
     "@terra-money/feather.js": "^1.0.0-beta.4",
     "rxjs": "^7.0.0"
@@ -102,5 +107,9 @@
       "default": "./models/wallet.js"
     },
     "./README.md": "./README.md"
+  },
+  "description": "// TODO",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
